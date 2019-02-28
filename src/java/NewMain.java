@@ -3,7 +3,11 @@ import beans.Adherent;
 import beans.Categorie;
 import beans.Editeur;
 import beans.Livre;
+import dao.DaoAdherent;
+import dao.DaoCategorie;
+import dao.DaoEditeur;
 import dao.DaoLivre;
+import java.util.List;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -22,11 +26,15 @@ public class NewMain {
      */
     public static void main(String[] args) {
         DaoLivre dl = new DaoLivre();
-        Categorie c = new Categorie(1,"Roman");
-        Adherent a = new Adherent(1,"ali","salah");
-        Editeur e = new Editeur(1,"mohamed","bachir","1 rue aziza othmana");
-        Livre l  = new Livre(1,"test3",(float)10.5,c,a,e);
-        dl.supprimerLivre(l);
-    }
+        DaoCategorie dc= new DaoCategorie();
+        DaoEditeur de= new DaoEditeur();
+        DaoAdherent da = new DaoAdherent();
+        
+        List<Categorie> lst = dc.getAllCategories();
+        for(int i=0;i < 2 ;i++){
+            System.out.println(lst.get(i).getIdCategorie());
+            System.out.println(lst.get(i).getLibelleCategorie());
+        }
     
-}
+}}
+

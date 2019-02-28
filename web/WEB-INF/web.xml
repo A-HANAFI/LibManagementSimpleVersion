@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ServletLivre</servlet-name>
+        <servlet-class>controller.ServletLivre</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletCategorie</servlet-name>
+        <servlet-class>controller.ServletCategorie</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletAdherent</servlet-name>
+        <servlet-class>controller.ServletAdherent</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletEditeur</servlet-name>
+        <servlet-class>controller.ServletEditeur</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLivre</servlet-name>
+        <url-pattern>/ServletLivre</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletCategorie</servlet-name>
+        <url-pattern>/ServletCategorie</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletAdherent</servlet-name>
+        <url-pattern>/ServletAdherent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletEditeur</servlet-name>
+        <url-pattern>/ServletEditeur</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

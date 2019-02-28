@@ -22,6 +22,10 @@ public class Livre {
     private Adherent adhLivre;
     private Editeur editLivre;
 
+    public Livre() {
+    }
+
+    
     public Livre(int idLivre, String libelleLivre, Float prUnLivre) {
         this.idLivre = idLivre;
         this.libelleLivre = libelleLivre;

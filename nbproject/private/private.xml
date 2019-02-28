@@ -3,16 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/beans/Editeur.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/web/index.html</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/beans/Adherent.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/beans/Categorie.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/beans/Emprunt.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/utilitaire/Singleton.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/dao/DaoLivre.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/NewMain.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/beans/Client.java</file>
-            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/beans/Livre.java</file>
+            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/controller/ServletEditeur.java</file>
+            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/controller/ServletAdherent.java</file>
+            <file>file:/C:/Users/ahmed_%20s/Documents/NetBeansProjects/LibManagementSimpleVersion/src/java/controller/ServletCategorie.java</file>
         </group>
     </open-files>
 </project-private>
