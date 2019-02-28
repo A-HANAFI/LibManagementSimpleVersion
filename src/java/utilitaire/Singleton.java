@@ -32,7 +32,7 @@ public class Singleton {
        //ClassNotFoundException
        
        try{
-           cx=DriverManager.getConnection("jdbc:mysql://localhost:3306/tp1produit","root","");
+           cx=DriverManager.getConnection("jdbc:mysql://localhost:3306/libmanagementsimpleversion","root","");
            System.out.println("Connexion effectué");
        }
        catch(SQLException e){
